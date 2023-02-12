@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>{{ msg }}</h1>
+        <h3>Clique no botão para incrementar o contador:</h3>
         <button @click="increment">
             Contador: {{ counter }}
         </button>
@@ -39,6 +40,7 @@ button {
   font-size: 16px;
   padding: 15px 30px;
   transition: all 0.3s;
+  margin-top: 16px;
 }
 
 button:hover {

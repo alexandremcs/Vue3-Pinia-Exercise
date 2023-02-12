@@ -4,7 +4,7 @@ import Home from './components/Home.vue'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+    <a href="https://pinia.vuejs.org/" target="_blank"><img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /></a>
     <div class="wrapper">
       <Home msg="Store com Pinia" />
     </div>
@@ -12,6 +12,9 @@ import Home from './components/Home.vue'
 </template>
 
 <style scoped>
+a:hover {
+  background: none;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
